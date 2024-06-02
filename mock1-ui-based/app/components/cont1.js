@@ -51,13 +51,11 @@ export default function Content() {
             pl={isMobile ? 0 : 8}
           >
             <Text mb={2}>
-              We've all been in the mud once, and now we've decided to fight it
+              We&apos;ve all been in the mud once, and now we&apos;ve decided to fight it
               out.
             </Text>
             <Text mb={2}>
-              Pay tribute to those pioneers of WEB3 and the warriors who
-              dedicated their love to the blockchain. Save the lucky ones alive,
-              join us to save the future!
+              Pay tribute to those pioneers of WEB3 and the warriors who dedicated their love to the blockchain. Save the lucky ones alive, join us to save the future!
             </Text>
             <Text mb={2}>
               Our mission is to empower everyone to share wealth and succeed.
