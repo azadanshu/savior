@@ -26,6 +26,7 @@ savior/
 │   ├── README.md
 │   └── ...
 └── ...
+```
 
 ### Prerequisites
 
@@ -41,6 +42,7 @@ Make sure you have the following installed on your local machine:
    ```bash
    git clone https://github.com/azadanshu/savior.git
    cd savior/mock1-ui-based
+   ```
    
 2. **Installation dependencies:**
 
@@ -63,6 +65,7 @@ Make sure you have the following installed on your local machine:
        "postcss": "^8",
        "tailwindcss": "^3.4.1"
      }
+   ```
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
