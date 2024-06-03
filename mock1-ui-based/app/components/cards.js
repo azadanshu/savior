@@ -30,8 +30,8 @@ const RoadMapCard = ({ phase, description, image }) => (
     borderWidth="1px"
     borderRadius="13.17px"
     overflow="hidden"
-    width={["131.3px", "237.06px"]} // Adjusted width for small screens
-    height={["193.3px", "349px"]} // Adjusted height for small screens
+    width={{base:"131.3px", md:"237.06px"}} // Adjusted width for small screens
+    height={{base:"193.3px", md:"349px"}} // Adjusted height for small screens
     textAlign="left"
     mb={[0, 8]} // Adjusted margin bottom for small screens
   >
@@ -109,9 +109,9 @@ const Cards = () => {
       >
         ROAD MAP
       </Text>
-      <Flex justifyContent="center" alignItems="center" wrap="wrap" gap={[0, 8]}> {/* Adjusted gap for small screens */}
+      <Flex justifyContent="center" alignItems="center" wrap="wrap" gap={[0, 8]} >{/* Adjusted gap for small screens */}
         {phases.map((phase, index) => (
-          <Box key={index}>
+          <Box _hover={{transition: "all 0.3s ease-in-out", transform: "scale(1.1)"}} key={index}>
             <RoadMapCard {...phase} />
           </Box>
         ))}

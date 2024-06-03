@@ -29,8 +29,8 @@ const Footer = () => {
           alt="Logo"
           boxSize="100px"
           mb={4}
-          width= {{base: "auto", md:"200px"}}
-          height= {{base: "auto", md:"221px"}}
+          width= {{base: "200px", md:"200px"}}
+          height= {{base: "200px", md:"200px"}}
 
         />
         <Text
